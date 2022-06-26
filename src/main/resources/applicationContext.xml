@@ -25,24 +25,24 @@
           class="ru.someboy.radar.RapMusic">
     </bean>
 
-    <bean id="musicPlayer"
-          class="ru.someboy.radar.MusicPlayer">
-        <property name="music" ref="musicBean"/>
-        <property name="name" value="${musicPlayer.name}"/>
-        <property name="volume" value="${musicPlayer.volume}"/>
-    </bean>
-
 <!--    <bean id="musicPlayer"-->
 <!--          class="ru.someboy.radar.MusicPlayer">-->
-<!--        <property name="musicList">-->
-<!--            <list>-->
-<!--                <ref bean="classicalMusicBean"/>-->
-<!--                <ref bean="rockMusicBean"/>-->
-<!--                <ref bean="rapMusicBean"/>-->
-<!--            </list>-->
-<!--        </property>-->
+<!--        <property name="music" ref="musicBean"/>-->
 <!--        <property name="name" value="${musicPlayer.name}"/>-->
 <!--        <property name="volume" value="${musicPlayer.volume}"/>-->
 <!--    </bean>-->
+
+    <bean id="musicPlayer"
+          class="ru.someboy.radar.MusicPlayer">
+        <property name="musicList">
+            <list>
+                <ref bean="classicalMusicBean"/>
+                <ref bean="rockMusicBean"/>
+                <ref bean="rapMusicBean"/>
+            </list>
+        </property>
+        <property name="name" value="${musicPlayer.name}"/>
+        <property name="volume" value="${musicPlayer.volume}"/>
+    </bean>
 
 </beans>
