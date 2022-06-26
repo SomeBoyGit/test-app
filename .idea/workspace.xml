@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ee4ffc2-85e4-49ee-a0ff-d9dd11b06b4c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/someboy/radar/Computer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/someboy/radar/ClassicalMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/someboy/radar/ClassicalMusic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/someboy/radar/MusicPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/someboy/radar/MusicPlayer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/someboy/radar/RockMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/someboy/radar/RockMusic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/someboy/radar/TestSpring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/someboy/radar/TestSpring.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +37,9 @@
         <option name="downloadSourcesAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="2B1yEjWhPsRXEI0xsursbIX8yBI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -100,7 +107,7 @@
       <workItem from="1656087781017" duration="3529000" />
       <workItem from="1656150826779" duration="662000" />
       <workItem from="1656159139945" duration="12099000" />
-      <workItem from="1656223214252" duration="5325000" />
+      <workItem from="1656223214252" duration="9286000" />
     </task>
     <task id="LOCAL-00001" summary="musicPlayer с одним вызовом бина">
       <created>1656223363732</created>
@@ -130,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656257893649</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Аннотации&#10;@Component">
+      <created>1656258559176</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1656258559176</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,6 +154,7 @@
     <MESSAGE value="musicPlayer с одним вызовом бина" />
     <MESSAGE value="musicPlayer с вызовом всех бинов" />
     <MESSAGE value="init-method&#10;destroy-method&#10;factory-method&#10;scope" />
-    <option name="LAST_COMMIT_MESSAGE" value="init-method&#10;destroy-method&#10;factory-method&#10;scope" />
+    <MESSAGE value="Аннотации&#10;@Component" />
+    <option name="LAST_COMMIT_MESSAGE" value="Аннотации&#10;@Component" />
   </component>
 </project>
