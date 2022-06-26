@@ -45,11 +45,11 @@ public class MusicPlayer {
         this.music = music;
     }
 
-//    public void playMusic() {
-//        System.out.println("Playing: " + music.getSong());
-//    }
-
-    public void playMusicList() {
-        musicList.forEach(song -> System.out.println("Playing: " + song.getSong()));
+    public void playMusic() {
+        System.out.println("Playing: " + music.getSong());
     }
+
+//    public void playMusicList() {
+//        musicList.forEach(song -> System.out.println("Playing: " + song.getSong()));
+//    }
 }
