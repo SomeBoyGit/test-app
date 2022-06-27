@@ -1,4 +1,4 @@
-package ru.someboy.radar;
+package ru.someboy.testapp;
 
 public class RapMusic implements Music{
     @Override

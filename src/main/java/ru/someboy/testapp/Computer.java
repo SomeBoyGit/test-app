@@ -1,14 +1,10 @@
-package ru.someboy.radar;
+package ru.someboy.testapp;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
-
-@Component
 public class Computer {
-    private int id;
-    private MusicPlayer musicPlayer;
+    private final int id;
+    private final MusicPlayer musicPlayer;
+    private final MusicEnum musicEnum = MusicEnum.ROCK;
 
-    @Autowired
     public Computer(MusicPlayer musicPlayer) {
         this.id = 1;
         this.musicPlayer = musicPlayer;

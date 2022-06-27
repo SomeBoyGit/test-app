@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ee4ffc2-85e4-49ee-a0ff-d9dd11b06b4c" name="Changes" comment="" />
+    <list default="true" id="3ee4ffc2-85e4-49ee-a0ff-d9dd11b06b4c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/someboy/radar/MusicEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/someboy/radar/SpringConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/someboy/radar/ClassicalMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/someboy/radar/ClassicalMusic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/someboy/radar/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/someboy/radar/Computer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/someboy/radar/MusicPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/someboy/radar/MusicPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/someboy/radar/RockMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/someboy/radar/RockMusic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/someboy/radar/TestSpring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/someboy/radar/TestSpring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/musicPlayer.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/musicPlayer.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +25,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -58,11 +70,11 @@
   </component>
   <component name="RunManager">
     <configuration name="TestSpring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.someboy.radar.TestSpring" />
+      <option name="MAIN_CLASS_NAME" value="ru.someboy.testapp.TestSpring" />
       <module name="test-app" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.someboy.radar.*" />
+          <option name="PATTERN" value="ru.someboy.testapp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,7 +97,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestSpring" />
+        <item itemvalue="Application.ru.someboy.testapp.TestSpring" />
       </list>
     </recent_temporary>
   </component>
@@ -100,7 +112,7 @@
       <workItem from="1656087781017" duration="3529000" />
       <workItem from="1656150826779" duration="662000" />
       <workItem from="1656159139945" duration="12099000" />
-      <workItem from="1656223214252" duration="10027000" />
+      <workItem from="1656223214252" duration="21833000" />
     </task>
     <task id="LOCAL-00001" summary="musicPlayer с одним вызовом бина">
       <created>1656223363732</created>
@@ -144,11 +156,29 @@
       <option name="project" value="LOCAL" />
       <updated>1656262780966</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Аннотация @Autowired&#10;Внедрение зависимостей (Dependency Injection).">
+      <created>1656270503882</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1656270503882</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="musicPlayer с одним вызовом бина" />
